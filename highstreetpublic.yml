@@ -1,0 +1,8 @@
+server:
+  servelet:
+    context-path: /
+  error:
+    whitelabel:
+      enabled: false
+logging:
+  config: /logsdir/highstreet/log4j-highstreet.xml
