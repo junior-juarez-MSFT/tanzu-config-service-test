@@ -1,0 +1,6 @@
+management.endpoints.web.exposure.include: *
+management.endpoint.health.show-details: always
+spring.application.name: acme-payment2
+spring.cloud.config.enabled: false
+eureka.client.enabled: true
+spring.config.activate.on-profile: default
